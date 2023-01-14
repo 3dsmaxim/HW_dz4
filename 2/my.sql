@@ -15,4 +15,4 @@ INSERT INTO CLASSMATES VALUES (07, 'Sergyy', 25, 'Moscow');
 INSERT INTO CLASSMATES VALUES (08, 'Fiofan', 32, 'Vladimir');
 INSERT INTO CLASSMATES VALUES (09, 'Masha', 15, 'Moscow');
 
-SELECT name FROM CLASSMATES WHERE age > 18 AND age< 40 AND address = 'Moscow';
+SELECT name FROM CLASSMATES WHERE age > 18 AND age < 40 AND address = 'Moscow';
